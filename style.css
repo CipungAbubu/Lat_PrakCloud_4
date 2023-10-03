@@ -1,0 +1,39 @@
+body {
+    background-image: url('jenoo.jpg'); /* Ganti 'jeno.jpg' dengan nama file gambar latar belakang Anda */
+    background-size: contain; /* Menggunakan 'contain' agar gambar tidak mengisi seluruh layar */
+    font-family: Arial, sans-serif;
+    margin: 20;
+    padding: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    padding: 45px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+     color: #333;
+    font-size: 24px; /* Ukuran font yang lebih besar */
+    text-transform: uppercase; /* Membuat teks menjadi huruf besar semua */
+    letter-spacing: 2px; /* Spasi antar huruf */
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 5px 0;
+}
+
+.info p {
+    margin: 5px 0;
+    font-weight: bold;
+}
